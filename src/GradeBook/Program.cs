@@ -10,7 +10,7 @@ namespace GradeBook
             book.AddGrade(89.1);
             book.AddGrade(77.5);
             book.AddGrade(80.5); 
-
+           
             var stats = book.GetStatistics();    
 
             Console.WriteLine($"The average grade is {stats.Average:N1}"); //N1 makes it so that there is only one number after the decimal when returned
